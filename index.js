@@ -10,7 +10,7 @@ const client = new Client({
 });
 
 // ⚠️ REMPLACE CES VALEURS ⚠️
-const BOT_TOKEN = 'MTQyOTg0NjE3MjEwMDU5MTYxNg.GmafoZ.Jp7FnJPNvEYFG1kf3GhA5u4joe0VKYML9mvxVA';
+const BOT_TOKEN = 'MTQyOTg0NjE3MjEwMDU5MTYxNg.GKIrGd.yakl2mSfk8V9WIf6_ZgmcNTgHySHc0ZF7pcvA8';
 const CLIENT_ID = '1429846172100591616';
 
 // Webhooks
@@ -267,4 +267,5 @@ client.once('ready', async () => {
 });
 
 // Connexion du bot
+
 client.login(BOT_TOKEN);
